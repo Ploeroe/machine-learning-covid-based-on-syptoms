@@ -1,0 +1,16 @@
+Mengumpulkan data
+Melakukan data preprocessing
+    Data Cleaning
+        Melakukan pengecekan data yang bernilai null
+        Apabila terdapat data yang bernilai null, data tersebut akan diisi dengan rata - rata data yang ada agar tidak merusak dataset
+    Correlation Test
+        Data yang sudah dibersihkan dari nilai null lalu akan dilakukan tes korelasi
+        Apabila terdapat data yang bernilai min, maka data pada kolom tersebut akan dihapus.
+    Data visualization after pre process, menampilkan data sebelum dilakukan proses agar dapat mendapatkan gambaran yang lebih jelas terhadap data - data yang dimiliki.
+    Process
+        Membagi data menjadi 8:2. 80% untuk data training, dan 20% untuk data testing.
+        Lalu data yang sudah dibagi akan selanjutnya diproses melalui Linear Discriminant Analysis.
+        Data yang sudah diproses dengan LDA lalu akan dilakukan fit linear regression untuk mendapatkan hasil ketepatan program.
+        Mengimplementasikan confusion matrix untuk mendapatkan jumlah ketepatan pada setiap kategorinya (True Positif, True Negatif, False Positif, dan False Negatif).
+        Melakukan test akurasi mesin dan juga mengimplementasikan classification report untuk melihat ketepatan mesin secara lebih detil.
+    Menggunakan fitur LDA untuk memprediksi data yang diinput oleh user.
